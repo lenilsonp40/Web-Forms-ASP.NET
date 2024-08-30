@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Componentes1.aspx" />
+    <Content Include="DiasDeVida.aspx" />
     <Content Include="Tabuada.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="Componentes1.aspx.designer.cs">
       <DependentUpon>Componentes1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DiasDeVida.aspx.cs">
+      <DependentUpon>DiasDeVida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiasDeVida.aspx.designer.cs">
+      <DependentUpon>DiasDeVida.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tabuada.aspx.cs">
