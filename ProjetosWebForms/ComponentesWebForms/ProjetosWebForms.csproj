@@ -79,6 +79,7 @@
     <Content Include="Menu.aspx" />
     <Content Include="Tabuada.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="Wizard.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +125,12 @@
     <Compile Include="Menu.aspx.designer.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modelo.Master.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo.Master.designer.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tabuada.aspx.cs">
       <DependentUpon>Tabuada.aspx</DependentUpon>
@@ -131,6 +138,13 @@
     </Compile>
     <Compile Include="Tabuada.aspx.designer.cs">
       <DependentUpon>Tabuada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Wizard.aspx.cs">
       <DependentUpon>Wizard.aspx</DependentUpon>
@@ -141,6 +155,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Modelo.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
